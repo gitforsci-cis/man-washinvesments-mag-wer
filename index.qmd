@@ -1,12 +1,12 @@
 ---
 title: WASH investments
 author:
-  - name: First Second Last
+  - name: Marc Werner
     orcid: 0000-0000-0000-0000
     corresponding: true
     email: me@me.com
     affiliations:
-      - name: My University
+      - name: CSS @ ETH Zürich
 date: last-modified
 format:
   html:
@@ -23,14 +23,16 @@ bibliography: references.bib
 ---
 
 ```{r}
-#| include: false
-# install required R packages
-# install.packages("devtools")
-# devtools::install_github("openwashdata/washinvestments")
-# install.packages(c("ggplot2", "countrycode", "dplyr", "ggthemes))
+ #include: false
+ #install required R packages
+ #install.packages("devtools")
+ #devtools::install_github("openwashdata/washinvestments")
+ #install.packages(c("ggplot2", "countrycode", "dplyr", "ggthemes"))
 ```
 
 # Data import
+
+So this is also a new change.
 
 The data in this manuscript was prepared by @gotschmann2024 and is available as an R data package titled `washinvestments`: <https://openwashdata.github.io/washinvestments/>.
 
